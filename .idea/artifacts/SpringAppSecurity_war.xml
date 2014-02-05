@@ -1,7 +1,7 @@
 <component name="ArtifactManager">
-  <artifact type="war" build-on-make="true" name="SpringAppSecurity:war">
-    <output-path>$PROJECT_DIR$/target</output-path>
-    <root id="archive" name="SpringAppSecurity.war">
+  <artifact type="war" name="SpringAppSecurity:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/SpringAppSecurity_war</output-path>
+    <root id="archive" name="SpringAppSecurity_war.war">
       <element id="artifact" artifact-name="SpringAppSecurity:war exploded" />
     </root>
   </artifact>

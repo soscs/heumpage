@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><decorators defaultdir="/WEB-INF/views/">
+    <!-- Any urls that are excluded will never be decorated by Sitemesh -->
+    <excludes>
+    	<pattern>*json*</pattern>
+    	<pattern>*ajax*</pattern>
+    </excludes>
+    <decorator name="MainLayout" page="decorator/mainLayout.jsp">
+       	<pattern>/home.it</pattern>
+    </decorator>
+    <decorator name="SubLayout" page="decorator/subLayout.jsp">
+        <pattern>/*</pattern>
+    </decorator>
+</decorators>

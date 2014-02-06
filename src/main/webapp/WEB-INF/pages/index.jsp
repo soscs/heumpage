@@ -10,7 +10,7 @@
             <h1>Home</h1>
             <security:authorize access="isAnonymous()">
                 <p>
-                    <a href="/spring_security_login">Sign In</a>
+                    <a href="/login">Sign In</a>
                 </p>
             </security:authorize>
 

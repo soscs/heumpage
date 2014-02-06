@@ -31,6 +31,11 @@ public class ApplicationController {
         return "index";
     }
 
+    @RequestMapping(value = "/login", method = RequestMethod.GET)
+    public String login() {
+        return "login";
+    }
+
     @PreAuthorize("hasRole('admin')")
     @RequestMapping(value = "/admin", method = RequestMethod.GET)
     public String admin(ModelMap map) {

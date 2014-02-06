@@ -8,6 +8,9 @@
     <decorator name="MainLayout" page="decorator/mainLayout.jsp">
        	<pattern>/main</pattern>
     </decorator>
+    <decorator name="LoginLayout" page="decorator/loginLayout.jsp">
+       	<pattern>/login</pattern>
+    </decorator>
     <decorator name="SubLayout" page="decorator/subLayout.jsp">
         <pattern>/*</pattern>
     </decorator>

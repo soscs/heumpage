@@ -3,6 +3,7 @@
 <!doctype html>
 <html lang="ko">
     <head>
+        <title>관리자</title>
     </head>
     <body>
         <h1>Admin</h1>

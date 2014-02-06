@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import java.util.Collection;
 
 @Controller
-public class ApplicationController {
+public class HtmlController {
     @Autowired
     private UserService userService;
 
@@ -28,7 +28,7 @@ public class ApplicationController {
                     (UserDetails) authentication.getPrincipal();
             map.addAttribute("userDetails", userDetails);
         }
-        return "index";
+        return "main";
     }
 
     @RequestMapping(value = "/login", method = RequestMethod.GET)
@@ -36,7 +36,7 @@ public class ApplicationController {
         return "login";
     }
 
-    @PreAuthorize("hasRole('admin')")
+    @PreAuthorize("hasRole('KWANGHEUM')")
     @RequestMapping(value = "/admin", method = RequestMethod.GET)
     public String admin(ModelMap map) {
         UserDetails userDetails =

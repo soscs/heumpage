@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25de8a37-2adc-4401-ad27-d11fbd81ef91" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/heumpage/controller/ApplicationController.java" afterPath="$PROJECT_DIR$/src/main/java/heumpage/controller/HtmlController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/main.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="e416d364-54b3-4b3c-b679-46e70a5371ff" name="로그인기능" comment="로그인 기능 완료">
@@ -1039,7 +1037,7 @@
       <updated>1391561609844</updated>
       <workItem from="1391561611114" duration="1043000" />
       <workItem from="1391603354602" duration="4045000" />
-      <workItem from="1391612336659" duration="8438000" />
+      <workItem from="1391612336659" duration="8458000" />
     </task>
     <task id="LOCAL-00001" summary="sitemesh, mybatis,bootstrap 설치">
       <created>1391612301569</created>
@@ -1057,11 +1055,15 @@
       <created>1391663610011</created>
       <updated>1391663610011</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="로그인&#10;">
+      <created>1391663819064</created>
+      <updated>1391663819064</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13526000" />
+    <option name="totallyTimeSpent" value="13546000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1135,7 +1137,8 @@
     <MESSAGE value="초기 셋팅 완전 완료 드디어 IntelliJ 로 프로젝트 하나 했네 ㅠ" />
     <MESSAGE value="초기 셋팅 완전 완료 드디어 IntelliJ 로 프로젝트 하나 했네 ㅠ&#10;" />
     <MESSAGE value="로그인" />
-    <option name="LAST_COMMIT_MESSAGE" value="로그인" />
+    <MESSAGE value="로그인&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="로그인&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<%@page contentType="text/html; charset=UTF-8" %><%@include file="../includes/taglib.jsp" %>
+<%@page contentType="text/html; charset=UTF-8" %>
+<%@include file="/WEB-INF/pages/includes/taglib.jsp" %>
 <%@ page trimDirectiveWhitespaces="true" %>
 <html lang="ko">
 <head>

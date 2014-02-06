@@ -1,7 +1,7 @@
 <component name="ArtifactManager">
   <artifact type="war" name="heumpage:war">
-    <output-path>$PROJECT_DIR$/out/artifacts/heumpage_war</output-path>
-    <root id="archive" name="heumpage_war.war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="SpringAppSecurity.war">
       <element id="artifact" artifact-name="heumpage:war exploded" />
     </root>
   </artifact>

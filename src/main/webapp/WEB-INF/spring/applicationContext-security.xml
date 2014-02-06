@@ -7,8 +7,8 @@
 		http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security-3.1.xsd">
 	
 	<http auto-config="true" use-expressions="true">
-		<intercept-url pattern="/main" access="hasAnyRole('KWANGHEUM','PORTFOLIO','USER','GUEST')"/>
-		
+		<intercept-url pattern="/kwanghum/*" access="hasAnyRole('KWANGHEUM')"/>
+
 		<form-login 
 			login-page="/login" 
 			authentication-failure-url="/login" 

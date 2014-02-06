@@ -4,7 +4,8 @@
 <%@ page trimDirectiveWhitespaces="true" %>
 <html lang="ko">
 <head>
-    <title><decorator:title/></title>
+    <title><decorator:title/> | Kwangheum</title>
+    <link href="${ctx }/resources/images/favicon.ico" rel="icon" type="image/x-icon"/>
     <jsp:include page="/WEB-INF/pages/includes/include_file.jsp" />
     <decorator:head/>
 </head>
